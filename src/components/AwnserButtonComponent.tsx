@@ -6,9 +6,9 @@ interface AwnserButtonProps {
 
 export const AwnserButton = (props: AwnserButtonProps) => {
   return (
-    <div>
-      <button onClick={()=> props.onAwnsering(true)}>yes</button>
-      <button onClick={()=> props.onAwnsering(false)}>no</button>
+    <div className="buttonContainer">
+      <button onClick={()=> props.onAwnsering(true)}>True</button>
+      <button onClick={()=> props.onAwnsering(false)}>False</button>
     </div>
   );
 };
